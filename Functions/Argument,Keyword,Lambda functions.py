@@ -1,13 +1,13 @@
 # # KEY,VALUE pass in a function::
-# def login(username, password):
-#     print(username, password)
-#
-#
-# login("dharani reddy", "test123@")
-#
-# login(username="dharanirret", password="test123@")
-#
-#
+def login(username, password):
+    print(username, password)
+
+
+login("dharani reddy", "test123@")
+
+login(username="dharanirret", password="test123@")
+
+
 # # *arg::
 def getmarks(*arg):
     for i in arg:

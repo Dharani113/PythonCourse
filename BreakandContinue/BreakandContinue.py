@@ -1,31 +1,31 @@
-# name="dhatri reddy"
-# for i in name:
-#     print(i)
-#     if (i=="x"):
-#         break
-#     else:
-#         continue
+name="dhatri reddy"
+for i in name:
+    print(i)
+    if (i=="x"):
+        break
+    else:
+        continue
 
-###by using range method::
-# lan=["c","c++","java","dharu","kesava","tri"]
-# for l in range(len(lan)):
-#     print(lan[l])
-#     if (lan[l]=="kesava"):
-#         print("i love kesava")
-#         break
-#     else:
-#         continue
+##by using range method::
+lan=["c","c++","java","dharu","kesava","tri"]
+for l in range(len(lan)):
+    print(lan[l])
+    if (lan[l]=="kesava"):
+        print("i love kesava")
+        break
+    else:
+        continue
 
 
-# 2.EXAMPLE::
-# lang=["c","c++","java","dharu","kesava","tri"]
-# for index in range(len(lang)):
-#     print(lang[index])
-#     if (lang[index]=="dharu"):
-#         print("i love dharu")
-#         break
-#     else:
-#         continue
+#2.EXAMPLE::
+lang=["c","c++","java","dharu","kesava","tri"]
+for index in range(len(lang)):
+    print(lang[index])
+    if (lang[index]=="dharu"):
+        print("i love dharu")
+        break
+    else:
+        continue
 
 
 ####Quiz::::

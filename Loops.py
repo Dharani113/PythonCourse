@@ -70,7 +70,7 @@
 # 1 2 3 4 5
 # 1 2 3 4 5
 # 1 2 3 4 5
-Program:
+#Program:
 size=5
 for i in range(size):
     for j in range(1,size-i):
@@ -78,7 +78,7 @@ for i in range(size):
     for k in range(1,i+2):
         print(k, end='')
 
-Output:
+#Output:
 #     1
 #    12
 #   123

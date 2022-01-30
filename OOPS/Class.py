@@ -36,7 +36,7 @@
 # kari.seasons()
 
 
-#EXAMPLE.3//
+# EXAMPLE.3//
 # class computer:
 #     pass
 #
@@ -44,28 +44,68 @@
 # print(id(c1))
 
 
-#52.TYPES OF VARIABLES::
+# 52.TYPES OF VARIABLES::
 # CLASS VARIABLES AND INSTANCE VARIABLES.
 class car:
-    wheels=4     #(class variables and class namespace)
+    wheels = 4  # (class variables and class namespace)
 
     def __init__(self):
-        self.company="tata"  #------------->(INSTANCE VARIABLES AND INSTANCE NAMESPACE)
-        self.mil=10  #------------->(INSTANCE VARIABLES AND INSTANCE NAMESPACE)
-c1=car()
-c2=car()
-c1.mil=8
-c2.company="bmw"
+        self.company = "tata"  # ------------->(INSTANCE VARIABLES AND INSTANCE NAMESPACE)
+        self.mil = 10  # ------------->(INSTANCE VARIABLES AND INSTANCE NAMESPACE)
 
-print(c1.company,c1.mil,c1.wheels)
-print(c2.company,c2.mil,c2.wheels)
+
+c1 = car()
+c2 = car()
+c1.mil = 8
+c2.company = "bmw"
+
+print(c1.company, c1.mil, c1.wheels)
+print(c2.company, c2.mil, c2.wheels)
+
 
 ##ANS:
 # tata 8 4
 # bmw 10 4
 
+# 53.TYPES OF METHODS OF PYTHON::
+# 1.INSTANCE METHODS
+# 2.CLASS METHODS
+# 3.STSTIC METHODS
+
+# class student:
+#     student="svist"
+#     def __init__(self,m1,m2,m3):
+#         self.m1=m1
+#         self.m2=m2
+#         self.m3=m3
+#
+#     def avg(self):
+#         return(self.m1+self.m2+self.m3)
+#     @classmethod
+#     def getSchool(cls):
+#         return cls.student
+#
+#
+# s1=student(23,34,54)
+# s2=student(14,56,76)
+# print(s1.avg())
+# print(student.getSchool())
 
 
+# EXAMPLE::
+class patient:
+    name = "basavatarakam"
 
-
-
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+    def deases(self):
+        # print("suffering from:",self.p1,self.p2)
+        return("suffering from:",self.p1,self.p2)
+    @classmethod
+    def gethospital(cls):
+        return(cls.name)
+p1 = patient("cancer,", "heart")
+p2 = patient("cancer,","brain")
+print(p2.deases())
+print(patient.gethospital())

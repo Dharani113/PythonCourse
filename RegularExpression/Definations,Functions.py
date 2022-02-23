@@ -3,12 +3,13 @@
 #metacharacters are special meaning.
 
 #FUNCTIONS::
-# findall---------->To find duplicates for specied pattern.
+# findall---------->To find duplicates for specified pattern.
 # search----------->To test the specified pattern present or not in the given string.
 # split------------>Returns a list where the string has been split at each match
 # sub-------------->Replaces one or many matches with a string
 # Compile--------->Used to create pattern object and can be re used.
-# Match----------> To test the input string with specified or not.First position only it will find out.
+# Match----------> To test the input string with specified or not.
+#                  First position only it will find out.
 
 
 # EXAMPLES::

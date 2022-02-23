@@ -1,9 +1,9 @@
 # # SYNTAX::
 # #WITHOUT PARAMETERS::
-# def test():
-#     print("TRILOCHAN DHARANI REDDY")
-#
-# test()
+def test():
+    print("TRILOCHAN DHARANI REDDY")
+
+test()
 
 # #WITH PARAMETERS::
 # def name(a):

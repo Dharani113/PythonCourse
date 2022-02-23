@@ -5,7 +5,7 @@ try:
      t1=(1,2,3,4)
      print("second value",(t1[4]))
 except Exception as e:
-    print("out of range occured")
+    print("not found")
     print(e)
 #
 #

@@ -13,10 +13,7 @@ class student:
         # return(self.m1+self.m2+self.m3)/3
 
 
-
-
-
-    class laptap:
+class laptap:
         def __init__(self):
             self.brand="hp"
             self.cpu="i5"

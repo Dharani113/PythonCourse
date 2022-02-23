@@ -8,3 +8,4 @@ p=["this is delhi\n","this is paris\n","this is bangolore\n"]
 r=f.read()
 print(r)
 print("---------------------------------------------------------")
+

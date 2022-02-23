@@ -9,22 +9,25 @@ login(username="dharanirret", password="test123@")
 
 
 # # *arg::
-def getmarks(*arg):
-    for i in arg:
-        print(i)
-    return
-
-getmarks(144, 12, 34, 5, 4, 65, 76, 89)
+# def getmarks(*arg):
+#     for i in arg:
+#         print(i)
+#     return
 #
+# getmarks(144, 12, 34, 5, 4, 65, 76, 89)
+
+# def getmarks(*keys):
+#     print(keys[2])
+# getmarks(24,34,56)
 #
 # ##keyword arg(**args):::
 # # represented in **args
-# def hospitalnames(**args):
-#     for hospital, names in args.items():
-#         print("%s == %s" % (hospital, names))
-#
-#
-# hospitalnames(hospital="cancer", name="basavatarakam")
+def hospitalnames(**args):
+    for hospital, names in args.items():
+        print("%s == %s" % (hospital, names))
+
+
+hospitalnames(hospital="cancer", name="basavatarakam")
 #
 # ##lamba function::
 # # also called as annonymus function.
@@ -42,10 +45,11 @@ getmarks(144, 12, 34, 5, 4, 65, 76, 89)
 # print(add(2,3,5))
 
 
-# tables = [lambda x=x: x*2 for x in range(1, 11)]
-# print(tables())
-# # for table in tables:
-# #     print(table())
+tables = [lambda x=x: x*2 for x in range(1, 11)]
+for table in tables:
+    print(table())
+
+def numbers(n):
 
 
 

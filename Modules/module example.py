@@ -1,0 +1,10 @@
+import rev
+print(rev.x)
+print(rev.y)
+print(rev.add(34,45))
+print(rev.sub(34,31))
+print(rev.mul(4,3))
+print(rev.div(34,31))
+x=rev.wish("dharani reddy")
+print(x.cv)
+print(x.greet())
